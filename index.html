@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ti Timer</title>
+  <meta name="description" content="Ti Timer — a simple, focused timer for iOS.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <p class="logo">Ti Timer</p>
+      <nav>
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Ti Timer</h1>
+      <p class="lead">A simple, focused timer for iOS.</p>
+      <p>Stay on track with a clean interface built for quick starts and everyday timing.</p>
+      <p class="cta-note">Available on the App Store.</p>
+    </section>
+
+    <section class="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Fast, distraction-free timer controls</li>
+        <li>Designed for iPhone and iPad</li>
+        <li>No account required</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Ti Timer. All rights reserved.</p>
+      <p>
+        <a href="support.html">Support</a>
+        &middot;
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
