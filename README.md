@@ -1,6 +1,8 @@
-# Ti Timer — App Store pages
+# TI Timer — App Store pages
 
-Static site for Ti Timer App Store metadata (marketing, support, and privacy).
+Static site for TI Timer App Store metadata (marketing, support, and privacy).
+
+TI Timer is a turn timer for long board-game nights—especially Twilight Imperium 4—with accurate timestamp-based timing, Live Activities, player voices, stats, and optional iCloud backup.
 
 ## App Store Connect URLs
 
@@ -15,7 +17,7 @@ After enabling GitHub Pages (see below), use these URLs:
 **Copyright** in App Store Connect is **not a URL**. Enter plain text, for example:
 
 ```text
-2026 Ti Timer
+2026 TI Timer
 ```
 
 Apple adds the © symbol automatically.
@@ -27,8 +29,3 @@ Apple adds the © symbol automatically.
 3. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
 4. Choose branch **main**, folder **/ (root)**, then **Save**.
 5. Wait a minute or two, then open `https://ti-timer-app.github.io/TiTimerApp/`.
-
-## Customize
-
-- Update the support email in `support.html` and `privacy.html` if `titimerapp@gmail.com` is not your real address.
-- Adjust app features and copy in `index.html` to match the shipped app.
